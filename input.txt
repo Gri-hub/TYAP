@@ -1,0 +1,52 @@
+fun main() {
+    print("----------------Primitives test--------------------")
+    a = 1
+    print(a)
+    a = false
+    print(a)
+    a = "Hello World!!"
+    print(a)
+    arr = [1, 2, 3,]
+    print(arr)
+    print(arr[0])
+
+
+    print("----------------If statement test--------------------")
+    if false {
+        print("Not Hello World(")
+    }
+
+    if true {
+        print("Whoah!! If statement is working!!!")
+    }
+
+    print("--------------== < > test----------------------")
+    a = 0 == 5
+    if a {
+        print("Your code is trash")
+    }
+    if 1 > 3 {
+        print("Your code is trash")
+    }
+    if 1 == 3 {
+        print("Your code is trash")
+    }
+
+
+    print("--------------assignment test----------------------")
+    a = 0
+    a = a + 1
+    print(a)
+    arr = [1, 2, 3,]
+    arr[0] = arr[1] + arr[2]
+    print(arr[0])
+
+
+    print("--------------While test----------------------")
+    i = 0
+    j = 0
+    while i < 3 {
+        i = i + 1
+        print(i)
+    }
+}
