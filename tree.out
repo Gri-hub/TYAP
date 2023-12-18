@@ -1,0 +1,182 @@
+Prorgam
+
+PrintExpression
+    StringExpression(----------------Primitives test--------------------)
+
+--------
+
+Assign
+    IdentExpression(a)
+    NumberExpression(1)
+
+--------
+
+PrintExpression
+    IdentExpression(a)
+
+--------
+
+Assign
+    IdentExpression(a)
+    BooleanExpression(False)
+
+--------
+
+PrintExpression
+    IdentExpression(a)
+
+--------
+
+Assign
+    IdentExpression(a)
+    StringExpression(Hello World!!)
+
+--------
+
+PrintExpression
+    IdentExpression(a)
+
+--------
+
+Assign
+    IdentExpression(arr)
+    ArrayExpression
+        NumberExpression(1)
+        NumberExpression(2)
+        NumberExpression(3)
+
+--------
+
+PrintExpression
+    IdentExpression(arr)
+
+--------
+
+PrintExpression
+    AccessByIndexExpression
+        Ident(arr)
+        NumberExpression(0)
+
+--------
+
+PrintExpression
+    StringExpression(----------------If statement test--------------------)
+
+--------
+
+IfStatement
+    PrintExpression
+        StringExpression(Not Hello World()
+
+--------
+
+IfStatement
+    PrintExpression
+        StringExpression(Whoah!! If statement is working!!!)
+
+--------
+
+PrintExpression
+    StringExpression(--------------== < > test----------------------)
+
+--------
+
+Assign
+    IdentExpression(a)
+    EqualExpression
+        NumberExpression(0)
+        NumberExpression(5)
+
+--------
+
+IfStatement
+    PrintExpression
+        StringExpression(Your code is trash)
+
+--------
+
+IfStatement
+    PrintExpression
+        StringExpression(Your code is trash)
+
+--------
+
+IfStatement
+    PrintExpression
+        StringExpression(Your code is trash)
+
+--------
+
+PrintExpression
+    StringExpression(--------------assignment test----------------------)
+
+--------
+
+Assign
+    IdentExpression(a)
+    NumberExpression(0)
+
+--------
+
+Assign
+    IdentExpression(a)
+    AddExpression
+        IdentExpression(a)
+        NumberExpression(1)
+
+--------
+
+PrintExpression
+    IdentExpression(a)
+
+--------
+
+Assign
+    IdentExpression(arr)
+    ArrayExpression
+        NumberExpression(1)
+        NumberExpression(2)
+        NumberExpression(3)
+
+--------
+
+Assign
+    IdentExpression(<interpreter.nodes.expressions.AccesByIndexExpression.AccessByIndexExpression object at 0x7f3f3fe0f910>)
+    AddExpression
+        AccessByIndexExpression
+            Ident(arr)
+            NumberExpression(1)
+        AccessByIndexExpression
+            Ident(arr)
+            NumberExpression(2)
+
+--------
+
+PrintExpression
+    AccessByIndexExpression
+        Ident(arr)
+        NumberExpression(0)
+
+--------
+
+PrintExpression
+    StringExpression(--------------While test----------------------)
+
+--------
+
+Assign
+    IdentExpression(i)
+    NumberExpression(0)
+
+--------
+
+Assign
+    IdentExpression(j)
+    NumberExpression(0)
+
+--------
+
+WhileStatement
+
+--------
+
